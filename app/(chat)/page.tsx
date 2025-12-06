@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Home() {
   const [copied, setCopied] = useState(false);
   const embedCode =
-    '<script src="https://fitment-bot.vercel.app/chatbot-embed.js"></script>';
+    '<script src="https://bbs-fitment.vercel.app/chatbot-embed.js"></script>';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(embedCode);

@@ -390,7 +390,7 @@ export default function FloatingChatbot({
                         alt="BBS"
                         className="object-contain p-0.5"
                       />
-                      <AvatarFallback>K</AvatarFallback>
+                      <AvatarFallback>BBS</AvatarFallback>
                     </Avatar>
                   )}
 

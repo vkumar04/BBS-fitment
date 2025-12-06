@@ -2,7 +2,7 @@
   "use strict";
 
   // Configuration
-  const CHATBOT_API_URL = "https://fitment-bot.vercel.app"; // Replace with your actual URL
+  const CHATBOT_API_URL = "https://bbs-fitment.vercel.app"; // Replace with your actual URL
 
   // Create container for chatbot
   const container = document.createElement("div");
