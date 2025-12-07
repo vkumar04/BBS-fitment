@@ -250,7 +250,10 @@ export default function FloatingChatbot({
   };
 
   const handleQuickAction = (vehicle: string) => {
-    setInput(vehicle);
+    sendMessage({
+      role: "user",
+      parts: [{ type: "text", text: vehicle }],
+    });
   };
 
   const handleNewConversation = async () => {
