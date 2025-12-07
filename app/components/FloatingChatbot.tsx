@@ -279,14 +279,14 @@ export default function FloatingChatbot({
   const isLoading = status === "streaming" || status === "submitted";
 
   const quickPrompts = [
-    { label: "What wheels fit my car?", value: "What wheels fit my car?" },
+    { label: "What fits my F80?", value: "What fits my F80?" },
     {
-      label: "Show me BBS options",
-      value: "Show me BBS options for my vehicle",
+      label: "Best setup for F82",
+      value: "What's the best setup for F82?",
     },
     {
-      label: "Best fitment for my ride",
-      value: "What's the best fitment for my car?",
+      label: "M4 GTS options",
+      value: "What wheels fit the M4 GTS?",
     },
   ];
 
